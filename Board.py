@@ -26,7 +26,7 @@ class Board:
 
     def start_game(self):
         root=Tk()
-        frm=ttk.Frame(root,padding=10)
+        frm=ttk.Frame(root,padding=10,height=200,width=200)
         frm.grid()
         ttk.Label(frm, text='Chess').grid(column=0, row=0)
         ttk.Button(frm, text='Quit',command=root.destroy).grid(column=1, row=0)
